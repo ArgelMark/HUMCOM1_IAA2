@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form Mark Anthon Argel</title>
+</head>
+<body style="font-family: Tahoma; background-color: rgb(131, 125, 125); color: rgb(245, 237, 226);">
+    <h1 align="center">Sign up Now!</h1>
+    <h4>Field marked (*) are required</h4>
+    <blockquote>
+            <form action="">
+            <fieldset>
+                <legend><h3>Your details</h3></legend>
+                    <label for="yourname">Name: *</label>
+                    <input type="text" name="yourname" placeholder="Fullname!" required> <br>
+                    <label for="youremail">Email: *</label>
+                    <input type="email" name="youremail" placeholder="e.g markemail@provider.com" required> <br>
+                    <label for="yourphonenum">Phone: *</label>
+                    <input type="tel" name="yourphonenum" placeholder="PhoneNumber!" required > <br>
+            </form>
+
+            <form action="">
+                <fieldset>
+                    <legend><h3>Delivery Address</h3></legend>
+                    <label for="address">Address: *</label>
+                    <input type="text" name="address" required placeholder="Complete Address"><br>
+                    <label for="dist/brgy">District/Barangay: *</label>
+                    <input type="text" name="dist/brgy" required placeholder="Barangay or District Only"> <br>
+                    <label for="">City: * </label>
+                    <input list="Cities" required placeholder="Choose" > <br>
+                    <datalist id="Cities">
+                        <option value="Baguio City"></option>
+                        <option value="Tarlac City"></option>
+                        <option value="Quezon City"></option>
+                        <option value="Davao City"></option>
+                        <option value="Zamboanga City"></option>
+                        <option value="Tugegarao City"></option>
+                        <option value="San Fernando City"></option>
+                   </datalist>
+                   <label for="PostalCode">Postal Code: *</label>
+                   <input type="number" name="PostalCode" required placeholder="Your Postal Code"> <br>
+                   <label for="Province">Province: *</label>
+                   <input list="Provinces" required placeholder="Choose">
+                    <datalist id="Provinces">
+                        <option value="Benguet"></option>
+                        <option value="Mindoro"></option>
+                        <option value="Batangas"></option>
+                        <option value="Zamboanga Del Sur"></option>
+                        <option value="Nueva Ecija"></option>
+                        <option value="La Union"></option>
+                        <option value="Bohol"></option>
+                        <option value="Mountain Province"></option>
+                        <option value="Kalinga"></option>
+                        <option value="Abra"></option>
+                    </datalist>
+                </fieldset>
+            </form>
+            <form action="">
+                <fieldset>
+                    <legend><h3>Membership Information</h3></legend>
+                    <label for="username">Username: *</label>
+                    <input type="text" name="username" required placeholder="Any username" > <br>
+                    <label for="passwd">Password: * </label>
+                    <input type="password" name="passwd" required placeholder="Make it strong!"> <br>
+                    <label for="MagSub">Magazine Subscriptions: </label> <br>
+                    <input type="radio" name="PCmagazine" value="PCmagazine" > PC magazine <br>
+                    <input type="radio" name="wired" value="wired"> Wired <br>
+                    <input type="radio" name="Compworld" value="Computer World"> Computer World <br>
+                    <input type="radio" name="dont" value="dont"> I don't subscribe <br>
+                    <input type="radio" name="Other" value="Other"> Other <br>
+                </fieldset>
+            </form>
+					<input type="button" onclick="alert('Your good to go! Thank you!')" value=" Sign Up! ">
+        </fieldset>
+    </blockquote>   
+</body>
+</html>
