@@ -1,0 +1,102 @@
+.profheader{
+    border: 5px solid limegreen;
+    border-radius: 50%;
+    text-align: left;
+    max-width: 40%;
+    max-height: 40%;
+}
+.navibar{
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    font-family: Geneva, sans-serif;
+    text-decoration: none;
+    font-size:xx-large;
+}
+.container {
+    align-items: center;
+    border-style: solid;
+    display: flex;
+    justify-content: center
+  }
+.container1 {
+    text-align: left;
+    border-style: solid;
+    display: flex;
+    justify-content: center
+  }
+div{
+    font-family: Geneva, sans-serif;
+}
+.Movies1{
+    margin-top: 10px;
+    padding: 10%;
+    padding-top: 0%;
+    border: 5px;
+    background-image: url('titanic.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-style: solid;
+    color: antiquewhite;
+    text-shadow: 1px 1px #e91c1c;
+}
+.Movies2{
+    margin-top: 10px;
+    padding: 10%;
+    padding-top: 0%;
+    border: 5px;
+    background-image: url('endgame.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-style: solid;
+    color: rgb(255, 72, 0);
+    text-shadow: 1px 1px #e7e7e7;
+}
+.Hobby1{
+    margin-top: 10px;
+    padding: 10%;
+    padding-top: 0%;
+    border: 5px solid rgb(255, 0, 0);
+    background-image: url('python.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-style: solid;
+    color: antiquewhite;
+}
+.Hobby2{
+    margin-top: 10px;
+    padding: 10%;
+    padding-top: 0%;
+    border: 5px;
+    background-image: url('photography.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-style: solid;
+    border-color: blue;
+}
+.places1{
+    margin-top: 10px;
+    padding: 10%;
+    padding-top: 0%;
+    border: 5px;
+    background-image: url('finland.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-style: solid;
+    border-color: yellow;
+}
+.places2{
+    margin-top: 10px;
+    padding: 10%;
+    padding-top: 0%;
+    border: 5px;
+    background-image: url('petersburg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-style: solid;
+    border-color: green;
+}
+.bttns{
+    color: black;
+    font-size: xx-large;
+}
